@@ -1,0 +1,575 @@
+/*Start Global Classes and Rules*/
+@font-face {
+  font-family: "Alle-Bold";
+  src: url("../fonts/Aller_Bd.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Montserat-Exbold";
+  src: url("../fonts/Montserrat-ExtraBold.otf");
+  font-weight: bolder;
+}
+@font-face {
+  font-family: "Montserat-Reg";
+  src: url("../fonts/Montserrat-Regular.otf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Montserat-light";
+  src: url("../fonts/Montserrat-ExtraBold.otf");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Myried-Bold";
+  src: url("../fonts/MyriadPro-Bold.otf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Myried-SBold";
+  src: url("../fonts/MyriadPro-Semibold.otf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Myried-Reg";
+  src: url("../fonts/Myriad Pro Regular.ttf");
+  font-weight: normal;
+}
+/*Start Main Colors*/
+/*End Main Colors*/
+/*End Global Classes and Rules*/
+/*Start Upper-Bar*/
+.upper-bar {
+  background-image: url("../images/upper-bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  color: #FFF;
+}
+.upper-bar .social-links .fa {
+  margin-right: 25px;
+}
+
+/*End Upper-Bar*/
+/*Start Navbar Section*/
+.navbar {
+  background-color: #FFF;
+  padding-bottom: 45px;
+}
+.navbar .navbar-nav .nav-item {
+  font-family: "Montserat-Reg";
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+/*End Navbar Section*/
+/*Start About-Company Section*/
+.about-company {
+  background-image: url("../images/bg-main.png");
+  background-size: cover;
+  background-position: center;
+  height: 494px;
+  width: 100%;
+}
+.about-company .message {
+  width: 50%;
+}
+.about-company .message .background {
+  background-image: url("../images/barier.png");
+  background-size: cover;
+  height: 490px;
+  width: 117%;
+  padding: 75px 45px;
+}
+@media (max-width: 479px) {
+  .about-company .message .background {
+    width: 200%;
+    padding: 6px 8px;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .about-company .message .background {
+    height: 490px;
+    width: 135%;
+    padding: 15px 24px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .about-company .message .background {
+    width: 184%;
+    height: 481px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about-company .message .background {
+    width: 145%;
+    height: 482px;
+  }
+}
+.about-company .message h1 {
+  color: #ebe6e6;
+  font-size: 38px;
+  font-family: "Alle-Bold";
+  line-height: 1.7;
+}
+@media (max-width: 479px) {
+  .about-company .message h1 {
+    font-size: 34px;
+    line-height: 1.6;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .about-company .message h1 {
+    font-size: 30px;
+    line-height: 1.6;
+    width: 80%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .about-company .message h1 {
+    width: 75%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about-company .message h1 {
+    font-size: 35px;
+    line-height: 1.9;
+    width: 81%;
+  }
+}
+
+/*End About-Company Section*/
+/*Start Apprenticeship Section*/
+.apprentice {
+  padding: 45px 0;
+}
+.apprentice h2 {
+  font-family: "Myried-SBold";
+  font-size: 37px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.apprentice h2 span {
+  color: #c8181c;
+  margin-left: 20px;
+}
+.apprentice .an-offer {
+  margin-bottom: 30px;
+}
+.apprentice .an-offer .circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 7px solid #FFF;
+  margin: 20px auto;
+  box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.1), -3px -6px 6px rgba(0, 0, 0, 0.1);
+}
+.apprentice .an-offer .black {
+  background-color: #000;
+}
+.apprentice .an-offer .red {
+  background-color: #c8181c;
+}
+.apprentice .an-offer h4 {
+  font-family: "Myried-Bold";
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.apprentice .an-offer p {
+  font-family: "Montserat-Reg";
+  line-height: 1.7;
+  font-weight: 100;
+  font-size: 18px;
+  color: #998;
+}
+
+/*End Apprenticeship Section*/
+/*Start benefits Section*/
+.benefits {
+  background-image: url("../images/benefits.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 1199px) {
+  .benefits {
+    text-align: center;
+  }
+}
+.benefits .container {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+@media (max-width: 1199px) {
+  .benefits .container {
+    text-align: center;
+    margin: auto;
+  }
+}
+@media (max-width: 990px) {
+  .benefits .container .benefit {
+    margin: auto;
+  }
+}
+.benefits .container .benefit img {
+  max-width: 100%;
+  height: 100%;
+}
+.benefits .container .describtion {
+  margin-top: 30px;
+  max-width: 100%;
+}
+.benefits .container .describtion h3 {
+  font-family: "Myried-Bold";
+  font-weight: bold;
+  font-size: 35px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+.benefits .container .describtion p {
+  color: #FFF;
+  font-family: "Montserat-Reg";
+  line-height: 1.4;
+  font-weight: 100;
+  font-size: 21px;
+  width: 90%;
+}
+@media (max-width: 767px) {
+  .benefits .container .describtion p {
+    font-size: 17px;
+    font-weight: bold;
+  }
+}
+.benefits .container .describtion button {
+  color: #FFF;
+  font-family: "Montserat-Reg";
+  background-color: #212121;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 11px;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  -ms-border-radius: 11px;
+  -o-border-radius: 11px;
+  font-size: 21px;
+}
+@media (max-width: 767px) {
+  .benefits .container .describtion button {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+}
+
+/*End benefits Section*/
+/*Start Featured-Training Section*/
+.featured-training {
+  padding: 45px 0;
+}
+.featured-training h2 {
+  font-family: "Myried-Bold";
+  font-weight: bold;
+  font-size: 35px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.featured-training h2 span {
+  color: #c8181c;
+  margin-left: 20px;
+}
+.featured-training .feature {
+  margin-bottom: 30px;
+  background-image: url("../images/feature-bg.png");
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  padding: 0 0 20px;
+}
+.featured-training .feature img {
+  max-width: 100%;
+}
+.featured-training .feature .feat-discribtion p {
+  color: #FFF;
+  font-family: "Myried-SBold";
+  font-size: 20px;
+  width: 60%;
+  margin: 20px auto;
+}
+@media (max-width: 992px) {
+  .featured-training .feature .feat-discribtion p {
+    font-size: 16px;
+    width: 80%;
+  }
+}
+.featured-training .feature .feat-discribtion button {
+  color: #FFF;
+  font-family: "Montserat-Reg";
+  background-color: #212121;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 11px;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  -ms-border-radius: 11px;
+  -o-border-radius: 11px;
+  font-size: 21px;
+  margin-bottom: 25px;
+}
+
+/*End Featured-Training Section*/
+/*Start Testimonials Section*/
+.testimonials {
+  background-image: url("../images/testimonial.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  padding: 45px 0 90px 0;
+  color: #FFF;
+}
+.testimonials h2 {
+  font-family: "Montserat-Exbold";
+  font-weight: bold;
+  font-size: 35px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.testimonials .carousel-item {
+  margin: 25px auto;
+  background-color: #FFF;
+  padding: 10px 15px 30px;
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+  color: #999;
+}
+.testimonials .carousel-item img {
+  float: left;
+  margin: 20px 20px 0 0;
+}
+.testimonials .carousel-item p {
+  width: 85%;
+  margin: 20px auto;
+  line-height: 1.5;
+  font-size: 19px;
+  text-align: left;
+}
+.testimonials .carousel-item h6 {
+  font-family: "Myried-Reg";
+  font-size: 22px;
+  color: #dd2b44;
+  font-weight: bold;
+}
+.testimonials .carousel-indicators {
+  margin: -85px auto;
+  display: block;
+}
+.testimonials .carousel-indicators li {
+  display: inline-block;
+  margin-right: 20px;
+  height: 25px;
+  width: 25px;
+  background-color: #000;
+  opacity: .25;
+  border: 3px solid #FFF;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
+  transition: opacity .26s ease-in-out;
+  -webkit-transition: opacity .26s ease-in-out;
+  -moz-transition: opacity .26s ease-in-out;
+  -ms-transition: opacity .26s ease-in-out;
+  -o-transition: opacity .26s ease-in-out;
+}
+.testimonials .carousel-indicators li.active {
+  opacity: 1;
+}
+
+/*End Testimonials Section*/
+/*Start contact-form Section*/
+.contact-form {
+  background-image: url("../images/contact-form.png");
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+  color: #FFF;
+  padding: 18px 0 10px 60px;
+}
+@media (max-width: 990px) {
+  .contact-form {
+    margin-bottom: 20px;
+  }
+}
+.contact-form h2 {
+  font-family: "Myried-Bold";
+  font-size: 40px;
+}
+.contact-form h2 .fa-phone {
+  margin-right: 6px;
+}
+.contact-form h2 span {
+  font-family: "Montserat-Reg";
+  font-size: 27px;
+  display: inline-block;
+  width: 50%;
+  margin-left: -30px;
+  margin-right: -55px;
+  text-transform: uppercase;
+  font-size: 26px;
+  color: #d4c2c2;
+}
+.contact-form .input-box {
+  position: relative;
+}
+.contact-form .input-box .fa-envelope {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  color: #ccc;
+  z-index: 6;
+  font-size: 17px;
+}
+.contact-form .input-box input[type="text"] {
+  height: 45px;
+  width: 95%;
+  border: none;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  outline: none;
+}
+.contact-form .input-box input[type="text"]:focus {
+  border: none;
+  outline: none;
+}
+.contact-form button[type="submit"] {
+  background-color: #212121;
+  color: #FFF;
+  font-family: "Montserat-bold";
+  font-weight: bold;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  padding: 10px 25px;
+  letter-spacing: 1px;
+}
+
+/*End contact-form Section*/
+/*Start Footer*/
+footer {
+  background-color: #000;
+  color: #FFF;
+  padding: 45px 0;
+}
+footer .mission {
+  text-align: left;
+}
+footer .mission h4 {
+  font-family: "Montserat-EXbold";
+  font-weight: bolder;
+  font-size: 29px;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+footer .mission p {
+  color: #FFF;
+  font-family: "Montserat-Reg";
+  line-height: 1.7;
+  font-weight: 100;
+}
+footer .quick-links {
+  text-align: left;
+  padding-left: 40px;
+}
+footer .quick-links h5 {
+  font-family: "Montserat-Reg";
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #EEE;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+footer .quick-links ul li {
+  font-family: "Montserat-Reg";
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+footer .quick-links ul li .fa-chevron-circle-right {
+  margin-right: 20px;
+}
+footer .gallary h5 {
+  font-family: "Montserat-Reg";
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #EEE;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+footer .gallary .box span {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  background-color: #c8181c;
+}
+footer .contact h5 {
+  font-family: "Montserat-Reg";
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #EEE;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+footer .contact .section {
+  overflow: hidden;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+}
+footer .contact .section img {
+  float: left;
+  margin-right: -45px;
+}
+footer .contact .section h6 {
+  font-family: "Montserat-Reg";
+  color: #c8181c;
+  font-size: 24px;
+}
+footer .contact .section p {
+  font-family: "Myried-Bold";
+  color: #EEE;
+  font-size: 20px;
+}
+footer .contact .section:not(:last-of-type) {
+  border-bottom: 2px dashed rgba(238, 238, 238, 0.4);
+}
+footer .copy {
+  font-family: "Montserat-Reg";
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/*End Footer*/
+
+/*# sourceMappingURL=style.css.map */
